@@ -1,2 +1,2 @@
-# html-mini-projects
+# html-learning
 Simple html files created to learn HTML Basics
