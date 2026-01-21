@@ -1,2 +1,2 @@
 # frontend-learning
-Simple html files created to learn HTML Basics
+Simple files created to learn Frontend Basics
