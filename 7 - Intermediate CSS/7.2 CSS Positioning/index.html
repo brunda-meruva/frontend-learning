@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <title>CSS Positioning Exercise</title>
+  <style>
+    /* Write your code here */
+    
+    .red-circle {
+      height: 200px;
+      width: 200px;
+      background-color: red;
+      border-radius: 50%;
+      /* If position: absolute, the element is positioned relative to its nearest positioned ancestor. */
+      position: absolute;
+      margin-left: 250px;
+      margin-top: 150px;
+    }
+
+    .blue-box {
+      height: 300px;
+      width: 500px;
+      background-color: blue;
+      /* position: relative : The element is positioned relative to its normal position in the document flow.*/
+      margin-top: 200px;
+      margin-left: 200px;
+    }
+  </style>
+</head>
+
+<body>
+  <div class="blue-box">
+    <div class="red-circle">
+    </div>
+  </div>
+
+</body>
+
+</html>

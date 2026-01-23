@@ -1,0 +1,36 @@
+/* Write your code here: */
+/* multiple */
+h1, h2 {
+    color: blueviolet;
+}
+
+/* parent-child */
+/* div > p {
+    color: firebrick;
+} */
+
+.box > p {
+    color: firebrick;
+} 
+
+/* We can use li directly, this is just practise for ancestor-descendant selectors, also div instead of .box */
+.box li {
+    color: blue;
+}
+
+/* chaining */
+/* element-class/id */
+/* no spaces */
+
+li.done {
+    color: seagreen;
+}
+
+/* li.done#read {
+    color: pink;
+} */
+
+/* combining selectors */
+ul > p.done {
+    font-size: 0.5rem;
+}

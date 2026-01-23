@@ -1,0 +1,35 @@
+https://appbrewery.github.io/flexbox-sizing-exercise/
+
+priority: min-width/max-width > flex-basis > width > content width
+
+flex: 1; means 1 grow, 1 shrink, 0 flex-basis (grow to max-width, shrink to min-width, so flex-basis is practically ignored, so this is most commonly used)
+
+default: flex-grow:0 , flex-shrink:1;
+
+flex-basis: auto; more space for items with more content and vice-versa. (so flex-basise: 0 means equal width as we switched it off)
+
+Solution:
+
+/* Write your CSS code below to make the blue items size, grow and shrink like the green ones.*/
+
+.container {
+  justify-content: space-between;
+}
+  
+.container > * {
+
+}
+
+.item1 {
+  flex-basis: 200px;
+}
+
+.item2 {
+  flex-basis: 200px;
+  flex-shrink: 0;
+}
+
+.item3 {
+  flex-basis: 400px;
+  flex-shrink: 0;
+}
