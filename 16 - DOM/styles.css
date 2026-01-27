@@ -1,0 +1,7 @@
+button:active {
+    color: red;
+}
+
+.invisible {
+    visibility: hidden;
+}
